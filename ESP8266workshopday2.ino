@@ -41,5 +41,5 @@ void loop() {
   Serial.print("Degrees Celsius");
   Blynk.virtualWrite(V0, t);
   Blynk.virtualWrite(V1, h);
-  delay(1000); // before it was 2000
+  delay(1000); 
   }
